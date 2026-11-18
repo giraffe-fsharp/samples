@@ -1,0 +1,5 @@
+<Project>
+  <ItemGroup>
+    <PackageReference Include="Giraffe.ViewEngine" Version="2.0.0-alpha-1" />
+  </ItemGroup>
+</Project>

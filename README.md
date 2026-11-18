@@ -4,6 +4,13 @@
 
 ### Windows and Linux Builds
 
+[![Build and test](https://github.com/giraffe-fsharp/samples/actions/workflows/build.yml/badge.svg)](https://github.com/giraffe-fsharp/samples/actions/workflows/build.yml)
+
+Requires the .NET 8 SDK. Run `sh ./build.sh` to build every application and
+run the SampleApp integration tests. On Windows, `pwsh ./build.ps1` is also available.
+The samples use Giraffe 8.3.0 and Giraffe.ViewEngine 2.0.0-alpha-1 (including
+the latest published prerelease view engine).
+
 [![Build status](https://ci.appveyor.com/api/projects/status/nqlrptmw8pr9cj46/branch/master?svg=true)](https://ci.appveyor.com/project/dustinmoris/samples/branch/master)
 
 [![Windows Build history](https://buildstats.info/appveyor/chart/dustinmoris/samples?branch=master&includeBuildsFromPullRequest=false)](https://ci.appveyor.com/project/dustinmoris/samples/history?branch=master)

@@ -1,6 +1,6 @@
 module SampleApp.HtmlViews
 
-open Giraffe.GiraffeViewEngine
+open Giraffe.ViewEngine
 open SampleApp.Models
 
 let layout (content: XmlNode list) =

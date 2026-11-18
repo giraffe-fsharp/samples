@@ -8,7 +8,6 @@ open Microsoft.AspNetCore.Builder
 open Microsoft.AspNetCore.Hosting
 open Microsoft.AspNetCore.TestHost
 open Microsoft.Extensions.DependencyInjection
-open FSharp.Control.Tasks.V2.ContextInsensitive
 open Xunit
 
 // ---------------------------------

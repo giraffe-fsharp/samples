@@ -8,9 +8,8 @@ open Microsoft.AspNetCore.Authentication
 open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.Logging
 open Microsoft.Extensions.DependencyInjection
-open FSharp.Control.Tasks.V2.ContextInsensitive
 open Giraffe
-open Giraffe.GiraffeViewEngine
+open Giraffe.ViewEngine
 open GoogleAuthApp.HttpsConfig
 
 // ---------------------------------
