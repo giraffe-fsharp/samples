@@ -11,9 +11,8 @@ run the SampleApp integration tests. On Windows, `pwsh ./build.ps1` is also avai
 The samples use Giraffe 8.3.0 and Giraffe.ViewEngine 2.0.0-alpha-1 (including
 the latest published prerelease view engine).
 
-[![Build status](https://ci.appveyor.com/api/projects/status/nqlrptmw8pr9cj46/branch/master?svg=true)](https://ci.appveyor.com/project/dustinmoris/samples/branch/master)
-
-[![Windows Build history](https://buildstats.info/appveyor/chart/dustinmoris/samples?branch=master&includeBuildsFromPullRequest=false)](https://ci.appveyor.com/project/dustinmoris/samples/history?branch=master)
+GitHub Actions builds and tests the samples on Windows and Linux for pull
+requests and pushes to `master`.
 
 This repository contains a few sample applications built with Giraffe:
 
